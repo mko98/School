@@ -1,0 +1,16 @@
+.groen {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	color: green;
+	/*display: inline-block; */
+}
+
+.groen:hover {
+	border-bottom: 3px dotted red;
+}
+
+.groot {
+	font-size: 1.5em;
+}

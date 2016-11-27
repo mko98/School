@@ -1,0 +1,96 @@
+
+.navbar {
+  background-color:rgb(209,28,61);
+  font: white;
+}
+
+.navbar a{
+  color: white !important;
+}
+
+
+.dropdown-menu a{
+  color: black !important;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* Font style */
+
+     h1, h2, h3, h4, h5, h6, p {
+font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: rgb(55, 55, 55);
+}
+
+hr {
+  margin-top: 20em;
+  margin-bottom: 1em;
+}
+
+/* Carousel */
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+
+  margin: auto;
+}
+/* background */
+
+body {
+  background-color: rgb(235, 241, 242)
+;
+
+}
+
+
+.row {
+margin-top: 1em;
+margin-bottom: 1em;
+    background-color: white;
+
+}
+
+
+table {
+  border-style: solid;
+  border-color: black;
+}
+
+th {
+  border-style: solid;
+  border-color: black;
+  }
+
+  tr {
+    border-style: solid;
+  border-color: black;
+  }
+
+  .img-circle {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }

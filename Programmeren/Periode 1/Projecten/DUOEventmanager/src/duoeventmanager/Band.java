@@ -1,0 +1,64 @@
+/*
+ * Avans Hogeschool Breda, AE&I,Opleiding Informatica 
+ */
+package duoeventmanager;
+
+/**
+ * Klasse voor gegevenstranspoort 
+ * @author eleutbec
+ */
+public class Band {
+
+    private int bandID;
+    private String naam;
+    private String beschrijving;
+
+    public Band() {
+        bandID = 0; 
+        naam = "";
+        beschrijving = "";
+    }
+
+    public Band(int id, String na, String beschr) {
+        bandID = id;
+        naam = na;
+        beschrijving = beschr;
+    }
+
+    public void setBandID(int bandID) {
+        this.bandID = bandID;
+    }
+
+    public void setNaam(String naam) {
+        this.naam = naam;
+    }
+
+    public void setBeschrijving(String beschrijving) {
+        this.beschrijving = beschrijving;
+    }
+
+    public int getBandID() {
+        return bandID;
+    }
+
+    public String getNaam() {
+        return naam;
+    }
+
+    public String getBeschrijving() {
+        return beschrijving;
+    }
+    
+    
+    public String toString() {
+        String str = ""; 
+        str = "BandNaam: " + naam + "  ID: " + bandID + "\n";
+        return str; 
+    }
+    
+    public boolean equals(Object anObject) {
+        Band aBand = (Band) anObject;
+        return (bandID == aBand.getBandID());        
+    }
+
+}

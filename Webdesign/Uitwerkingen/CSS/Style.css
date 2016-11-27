@@ -1,0 +1,18 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+
+body {
+    background-image: url("../Images/paper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+	color: blue
+}

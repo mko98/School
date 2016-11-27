@@ -1,0 +1,9 @@
+body {
+	margin-top: 30px;
+}
+
+.metRand {
+	border: 2px solid red;
+	padding: 5px;
+	margin: 10px;
+}

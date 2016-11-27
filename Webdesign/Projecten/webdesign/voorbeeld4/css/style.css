@@ -1,0 +1,21 @@
+/* mobile first */
+body {
+    background-image: url("../img/small.png")
+}
+
+/*rule voor middel groot*/
+@media only screen and (min-width: 400px)
+{
+    body {
+        background-image: url("../img/middle.png")
+    }
+}
+
+/*rule voor groot*/
+@media only screen and (min-width: 1190px)
+{
+    body {
+        background-image: url("../img/large.png")
+    }
+}
+
